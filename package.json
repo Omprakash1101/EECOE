@@ -12,6 +12,7 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "homepage": "https://omprakash1101.github.io/EECOE/", 
   "dependencies": {
     "exceljs": "^4.3.0",
     "file-saver": "^2.0.5",
