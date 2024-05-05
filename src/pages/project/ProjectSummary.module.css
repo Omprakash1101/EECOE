@@ -1,0 +1,40 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.confirmation-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  .confirmation-box {
+    width: 80%; /* Adjust the width as needed for smaller screens */
+    max-width: 300px; /* Set a maximum width for small screens */
+  }
+}
+
+/* Additional styles for mobile responsiveness */
+.overlay-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+/* Add more media queries and styles as needed for other screen sizes */
