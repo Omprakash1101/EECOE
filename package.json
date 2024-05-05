@@ -1,7 +1,6 @@
 
 {
-  "name": "oe",
-  "private": true,
+  "name": "eecoe",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,7 +10,7 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "homepage": "https://omprakash1101.github.io/EECOE/", 
+  "homepage": "http://omprakash1101.github.io/EECOE/", 
   "dependencies": {
     "exceljs": "^4.3.0",
     "file-saver": "^2.0.5",
