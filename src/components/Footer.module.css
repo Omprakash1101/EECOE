@@ -1,6 +1,7 @@
 /* Footer.module.css */
 
 .footer {
+  background: rgb(0, 0, 0,0.5);
   padding: 20px;
   text-align: center;
 }

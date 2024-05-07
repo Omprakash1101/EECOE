@@ -60,6 +60,12 @@ function App() {
 
   return (
     <div className="App">
+      <div className="video-wrapper">
+      <video autoPlay muted loop id="myvideo">
+      <source src="https://srmeaswari.ac.in/wp-content/uploads/2022/09/SRM-Easwari-Engineering-College-Ramapuram-1.mp4" type="video/mp4"/>
+      Your browser does not support the video tag.
+      </video>
+      </div>
       <div className="designCard">
         <div className="designCard-content">
           {authIsReady && (

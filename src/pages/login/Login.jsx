@@ -123,7 +123,6 @@ export default function Login() {
 
   return true ? (
     <>
-    <Footer />
       <form onSubmit={handleSubmit} className={styles["login-form"]}>
               <h2>{forgotPassword ? "Forgot Password" : "Login"}</h2>     {" "}
         <label>
@@ -169,7 +168,7 @@ export default function Login() {
         </button>)}
               {error && <p>{error}</p>}   {" "}
       </form>
-      
+      <Footer/>
     </>
   ) : (
     <div className={styles["login-form"]}>

@@ -139,8 +139,6 @@ export default function Signup() {
 
   return true ? (
     <>
-      <Footer />
-
       <form onSubmit={handleSubmit} className={styles["signup-form"]}>
         <h2>Sign Up</h2>
         <label>
@@ -258,6 +256,7 @@ export default function Signup() {
           Already an User? Login Instead
         </button>
       </form>
+      <Footer />
     </>
   ) : (
     <div className={styles["signup-form"]}>
